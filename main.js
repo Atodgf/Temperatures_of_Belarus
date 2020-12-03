@@ -56,9 +56,9 @@ const btn = document.getElementById('btn');
 
 
 
-btn.onclick = setQuery
 
-function setQuery() {
+
+btn.onclick = function setQuery() {
         getResults(cities.value);
     }
 
